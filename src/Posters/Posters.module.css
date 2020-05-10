@@ -1,0 +1,57 @@
+.posters {
+  display: flex;
+  margin-right: 4px;
+  color: gold;
+  margin: 0 10px;
+  padding-left: 5px;
+  background-color: silver;
+  border: 2px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.imeg {
+  min-width: 110px;
+  max-width: 110px;
+
+  border: 5px solid darkgray;
+  margin: 3px 4px;
+}
+
+.imeg img {
+  width: 110px;
+}
+
+.buttonLeft:active + .buttonRight + .posters .imeg {
+  transform: translateX(-125px);
+  transition-duration: 800ms;
+  transition-property: inherit;
+}
+
+.buttonRight:active + .posters .imeg {
+  transform: translateX(125px);
+  transition-duration: 800ms;
+  transition-property: inherit;
+}
+.buttonLeft a {
+  text-decoration: none;
+}
+.buttonRight a {
+  text-decoration: none;
+}
+
+.buttonLeft {
+  position: absolute;
+  top: 200px;
+  margin: 0% -15px;
+  font-size: 100px;
+
+  z-index: 1000;
+}
+
+.buttonRight {
+  position: absolute;
+  top: 200px;
+  margin: 0% 745px;
+  font-size: 100px;
+  z-index: 1000;
+}

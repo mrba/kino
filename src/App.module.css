@@ -1,0 +1,61 @@
+/* .app {
+  background-image: url("./Foto/Iron_man.jpg");
+} */
+
+.app {
+  margin: 0 auto;
+  background-color: black;
+  background-image: url("./Foto/Iron_man.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 0;
+  height: auto;
+}
+.fon {
+  background-image: url("./Foto/Iron_man.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 0;
+  width: 1024px;
+  margin: 0 auto;
+  height: 180px;
+}
+.kino {
+  display: flex;
+  max-width: 800px;
+  height: 15px;
+  margin: 0 auto;
+  color: aquamarine;
+  justify-content: flex-end;
+}
+.kinoPosters {
+  display: grid;
+  max-width: 800px;
+
+  grid-template-columns: 800px;
+  grid-template-rows: 180px;
+  margin: 0 auto;
+  color: aquamarine;
+}
+.header {
+}
+.posters {
+}
+
+.kinoPoster {
+  display: grid;
+  max-width: 800px;
+  margin: 0 auto;
+  grid-template-columns: 200px 600px;
+  grid-template-rows: auto;
+
+  color: aquamarine;
+  margin-top: 20px;
+}
+
+.navBar {
+  grid-area: nn;
+}
+.poster {
+  grid-area: pp;
+}

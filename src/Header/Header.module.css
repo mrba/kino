@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  margin-right: 5px;
+  color: red;
+  margin: -10px 10px;
+  background-color: grey;
+}
+.header div {
+  margin: -5px 0px;
+  color: red;
+  background-color: grey;
+  border-top: 2px solid green;
+  border-left: 2px solid green;
+  border-right: 2px solid green;
+  border-radius: 10px;
+}
