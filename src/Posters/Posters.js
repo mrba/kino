@@ -4,8 +4,6 @@ import img from "../Foto/komnata-zhelaniy.jpg";
 import store from "../state";
 
 const Posters = () => {
-  debugger;
-
   return (
     <div>
       <div className={s.buttonLeft}>

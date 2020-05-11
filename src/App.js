@@ -5,6 +5,7 @@ import Header from "./Header/Header";
 import Posters from "./Posters/Posters";
 import Poster from "./Posters/Poster/Poster";
 import NavBar from "./NavBar/NavBar";
+import store from "./state";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
       </div>
       <div className={s.kinoPoster}>
         <NavBar className={s.navBar} />
-        <Poster className={s.poster} />
+        <Poster className={s.poster} posts={store._state.posters.posts} />
       </div>
     </div>
   );

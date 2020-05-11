@@ -1,0 +1,14 @@
+.poster {
+  display: flex;
+  flex-direction: column;
+
+  color: gold;
+  background-color: red;
+}
+
+.sorting {
+  color: blue;
+}
+.poster img {
+  width: 240px;
+}

@@ -1,6 +1,6 @@
 let store = {
   _state: {
-    Posters: {
+    posters: {
       posts: [
         {
           id: 1,
@@ -20,7 +20,7 @@ let store = {
         },
         {
           id: 2,
-          name: "Кино один",
+          name: "Кино 2",
           top: 5,
           image: "‪/Foto/feya.jpg",
           description: "Laborum dolore cupidatat amet sint.",
@@ -36,7 +36,7 @@ let store = {
         },
         {
           id: 3,
-          name: "Кино один",
+          name: "Кино 3",
           top: 5,
           image: "/Foto/kanikuly-v-afrike.jpg",
           description: "Laborum dolore cupidatat amet sint.",
@@ -52,7 +52,7 @@ let store = {
         },
         {
           id: 4,
-          name: "Кино один",
+          name: "Кино 4",
           top: 5,
           image: "/Foto/komnata-zhelaniy.jpg",
           description: "Laborum dolore cupidatat amet sint.",
@@ -68,7 +68,7 @@ let store = {
         },
         {
           id: 5,
-          name: "Кино один",
+          name: "Кино 5",
           top: 5,
           image: "/Foto/krasnye-tufelki.jpg",
           description: "Laborum dolore cupidatat amet sint.",
@@ -84,7 +84,7 @@ let store = {
         },
         {
           id: 6,
-          name: "Кино один",
+          name: "Кино 6",
           top: 5,
           image: "/Foto/perevodchiki.jpg",
           description: "Laborum dolore cupidatat amet sint.",
@@ -100,7 +100,7 @@ let store = {
         },
         {
           id: 7,
-          name: "Кино один",
+          name: "Кино 7",
           top: 5,
           image: "/Foto/presledovanie.jpg",
           description: "Laborum dolore cupidatat amet sint.",
@@ -116,7 +116,7 @@ let store = {
         },
         {
           id: 8,
-          name: "Кино один",
+          name: "Кино 8",
           top: 5,
           image: "/Foto/viking-vik.jpg",
           description: "Laborum dolore cupidatat amet sint.",
@@ -131,8 +131,8 @@ let store = {
           likesCount: 12,
         },
         {
-          id: 8,
-          name: "Кино один",
+          id: 9,
+          name: "Кино 9",
           top: 5,
           image: "/Foto/Iron_man.jpg",
           description: "Laborum dolore cupidatat amet sint.",
