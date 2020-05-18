@@ -5,14 +5,14 @@
 .app {
   margin: 0 auto;
   background-color: black;
-  background-image: url("./Foto/Iron_man.jpg");
+  background-image: url("./Posters/Poster/Movie/Foto/Iron_man.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50% 0;
   height: auto;
 }
 .fon {
-  background-image: url("./Foto/Iron_man.jpg");
+  background-image: url("./Posters/Poster/Movie/Foto/Iron_man.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50% 0;

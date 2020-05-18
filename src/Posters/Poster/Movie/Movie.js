@@ -2,13 +2,14 @@ import React from "react";
 import s from "./Movie.module.css";
 
 const Movie = (props) => {
+  let img = "./Foto/" + props.image;
   return (
     <div>
       <div className={s.post}>{props.name}</div>
 
       <div>
         <a href="#">
-          <img srcSet={props.image} alt={props.name} />
+          <img src={require(`${img}`)} alt={props.name} />
         </a>
       </div>
       <div>{props.top}</div>

@@ -4,7 +4,6 @@ import Movie from "./Movie/Movie";
 import Sorting from "../Sorting/Sorting";
 
 const Poster = (props) => {
-  debugger;
   let movieElements = props.posts.map((movie) => (
     <Movie
       name={movie.name}

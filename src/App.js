@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "./logo.svg";
 import s from "./App.module.css";
 import Header from "./Header/Header";
 import Posters from "./Posters/Posters";
@@ -15,7 +14,7 @@ function App() {
         <Header className={s.header} />
       </div>
       <div className={s.kinoPosters}>
-        <Posters className={s.posters} />
+        <Posters className={s.posters} posts={store._state.posters.posts} />
       </div>
       <div className={s.kinoPoster}>
         <NavBar className={s.navBar} />

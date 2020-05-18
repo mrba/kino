@@ -19,6 +19,7 @@
 
 .imeg img {
   width: 110px;
+  height: 160px;
 }
 
 .buttonLeft:active + .buttonRight + .posters .imeg {
